@@ -2,51 +2,55 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
   <title>My Landing Page</title>
 </head>
 
 <body>
   <header id="header">
-
-    <ul>
+    <nav>
+      <ul>
         <li><a href="https://github.com/Jullian0426">Github</a></li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#Contact">Contact</a></li>
-    </ul>
-
+     </ul>
+   </nav>
   </header>
  
 
   <main>
 
     <section>
-        <h1>Jullian's Landing Website</h1>
+        <h1 class="text-center">Jullian's Landing Website</h1>
         <figure>
         <img src="./assets/images/Oliver Twist.jpg" alt="Image of my cat Oliver Twist">
-        <figcaption>My Cat Oliver Twist</figcaption>
+        <figcaption class="text-center">My Cat Oliver Twist</figcaption>
         </figure>
     </section>
     
     <section id="contact">
+      <h2 class="text-center">Contact</h2>
       <form>
         <ul>
           <li>
-            <label for="name">Name:</label>
+            <label class="text-right" for="name">Name:</label>
             <input type="text" id="name" name="user-name">
           </li>
           <li>
-            <label for="email">Email:</label>
+            <label class="text-right" for="email">Email:</label>
             <input type="text" id="email" name="user-email">
           </li>
         </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
       </form>
-    </section>
+    </section>d
   </main>
 
 
   <footer>
-  
+    <p>@2022 Jullian Productions</p>
   </footer>
     
 
